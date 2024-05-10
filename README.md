@@ -18,5 +18,6 @@ Mon depot est composé de :
 1. HTML
 2. CSS 
 
-[page login](image/login.jpeg)
-[page login](image/singup.jpeg)
+![page login](image/login.jpeg)
+
+![page login](image/singup.jpeg)
