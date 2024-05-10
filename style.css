@@ -1,0 +1,214 @@
+:root{
+    --primary:#3A5B22;
+    --lightprimary: rgba(58, 91, 34, 0.915);
+    --white: #ffffff;
+    --bgcolor: #F5F5F5;
+    --blue: #0F3DDE;
+    --silver: #ccc;
+    --black50: #737373;
+    --signinHoverColor: rgb(247, 243, 243);
+
+}
+a{
+    text-decoration: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: var(--silver);
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: var(--bgcolor);
+        
+
+}
+img{
+    width: 460px;
+    height: 590px;
+    border-radius: 15px;
+}
+
+#container{
+    
+    background-color: white;
+    width: 1000px;
+    display: flex;
+    height: 590px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    border: 1px solid var(--bgcolor);
+    border-radius: 15px;
+    
+
+}
+#container .content{
+    display: flex;
+    flex-direction: column;
+    width: 10;
+    height: 638;
+    margin-left: 100px;
+    margin: 80px;
+    padding-top: 70px;
+    
+    
+    
+    
+}
+
+
+
+
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+} 
+
+#container .content h2{
+    font-size: 1.5rem;
+    font-weight:900;
+    margin-bottom: 10px;
+    font-family:  sans-serif;
+}
+
+#container .content p{
+    margin-bottom: 30px;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+
+
+#container .content .myForm input{
+    width: 310px;
+    height: 28px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 25px;
+   
+    border: 2px inset var(--silver);
+}
+
+#container .content .myForm  label{
+    margin-bottom: 3px;
+    font-size: 0.7rem;
+    font: weight 800;
+}
+
+.forgot{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.forgot a{
+    text-decoration: none;
+    font-size: 0.7rem;
+    font-weight: 600;
+    margin-right: 20px;
+}
+a{
+    color: var(--blue);
+}
+
+#container .content  form button{
+    width: 310px;
+    border-radius: 10px;
+    height: 28px;
+    background-color: var(--primary);
+    color: var(--white);
+    font-weight: 600;
+    box-shadow: none;
+    margin-bottom: 15px;
+    
+    
+}
+#container .content  form button:hover{
+    cursor: pointer;
+    background-color: var(--lightprimary);
+}
+::placeholder{
+    font-size: 10px;
+}
+
+.ligne{
+    height: 1px;
+    background-color: var(--lightprimary);
+    opacity: 0.5;
+    width: 130px;
+    position: relative;
+    top: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.or{
+    font-size: 12px;
+    
+    margin-right: 10px;
+    display: flex;
+    float: left;
+    margin-bottom: 10px;
+    
+}
+.bttn{
+    justify-content: space-around;
+}
+
+.bttn button{
+    width: 127px;
+    
+    height: 25px;
+    background-color: var(--white);
+    border-color: var(--lightprimary);
+    border: 1px solid var(--lightprimary);
+    border-radius: 5px;
+    margin: 14px;
+    font-size:   11px;
+    color: var(--black50);
+    text-align: center;
+    margin-top: 35px;
+   
+    
+}
+.bttn button:hover{
+    background-color: var(--signinHoverColor);
+    cursor: pointer;
+}
+.lien{
+    text-align: center;
+    
+}
+.google{
+    width: 20px;
+    height: 15px;
+    left: 1px;
+    
+    
+    
+}
+.apple{
+    width: 20px;
+    height: 15px;
+    position: relative;
+    right: 3px;
+}
+#check{
+    
+    
+    position: relative;
+    
+
+}
+
+
+.class {
+    position: relative;
+    bottom: 45px;
+    left: 20px;
+}
